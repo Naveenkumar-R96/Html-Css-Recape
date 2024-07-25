@@ -213,40 +213,72 @@
 
       <h1>FORM</h1>
       <P>I WOULD LIKE TO HEARE FROM YOU</P>
+
       <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+          <legend>Details</legend>
 
-      <div>
-        <label for="firstName">FirstName</label>
-        <input type="text">
-      </div>
-      <p>
-        <label for="password">Second Name</label>
-        <input type="password" required>
-      </p>
-      <p>
-        <label for="password">Second Name</label>
-        <input type="password" required>
-      </p>
-      <p>
-        <label for="password">Second Name</label>
-        <input type="tel" required pattern=" ">
-      </p>
-      <p>
-        <label for="password">Fav decade</label>
-        <input type="number" required pattern=" " min="1960" max="2030" value="1990" step="10"> 
-      </p>
-      <p>
-        <label for="password">Fav decade</label>
-        <select name=content" id="">Favorite food
-          <option value="">parotta</option>
-          <option value="">biriyani</option>
-          <option value="">dosa</option>
-          <option value="">noodles</option>
-          <option value="">kalan</option>
+          <div>
+            <label for="firstName">FirstName</label>
+            <input type="text">
+          </div>
+          <p>
+            <label for="password">Second Name</label>
+            <input type="password" >
+          </p>
+          <p>
+            <label for="password">password</label>
+            <input type="password" >
+          </p>
+          <p>
+            <label for="password">Mobile Number</label>
+            <input type="tel"  pattern=" ">
+          </p>
+          <p>
+            <label for="password">Fav decade</label>
+            <input type="number"  pattern=" " min="1960" max="2030" value="1990" step="10"> 
+          </p>
+          <p>
+            <label for="password">Favorite food</label>
+            <select name=content" id="">Favorite food
+
+              <optgroup label="Non-veg">
+              <option value="">parotta</option>
+              <option value="">biriyani</option>
+              <option value="">dosa</option>
+              </optgroup>
+
+              <option value="">noodles</option>
+              <option value="">kalan</option>
+            
+            </select>
+          </p>
+        </fieldset>
+        <fieldset >
+          <legend>checkbox</legend>
+          <p>
+            <label for="">Checkbox</label>
+            <input type="checkbox">
+            <label for="">pen<label>
+            <input type="checkbox">
+            <label for="">pencil</label>
+            <input type="checkbox">
+            <label for="">eraser</label>
+            <input type="checkbox">
+          </p>
+          
+        </fieldset>
+
+        <fieldset>
+          <legend>Feed Back</legend>
+          <textarea name="" id=""></textarea>
+          <p>
+          <button>Submit</button>
+          <button>Reset</button>
+          </p>
+        </fieldset>
+
         
-        </select>
-      </p>
-
       </form>
     </sectin>
 
