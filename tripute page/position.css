@@ -1,0 +1,117 @@
+/**{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 1.5rem;
+  min-height: 200vh;
+}
+.outer-container{
+  border: 3px dashed black;
+  width: 75vw;
+  height: 85vh;
+  margin: 40px auto;
+  position: relative;
+ 
+  
+}
+.inner-container{
+  border: 2px solid blue;
+  width:40vw;
+  height: 50vh;
+  margin:200px auto;
+
+
+
+}
+.box{
+  width:150px;
+  height: 150px;
+  color:white;
+  padding: 1rem;
+}
+.absolute{
+  background-color: blue;
+  position: absolute;
+  top:0;
+  left:0;
+}
+.relative{
+  top:100px;
+  left: 100px;
+ background-color: REd;
+}
+.fixed{
+  background-color: green;
+  position: fixed;
+  top:100px;
+  left: 200px;
+}
+.sticky{
+  background-color: black;
+  position: sticky;
+  top:10;
+}*/
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-size: 1.5rem;
+}
+section{
+  min-height: 100vh;
+}
+.blue{
+  background-color: blue;
+}
+.red
+{
+  background-color: red;
+}
+.green{
+  background-color: green;
+}
+header, footer{
+  color:whitesmoke;
+  font-size: 3rem;
+  height: 80px;
+  text-align: center;
+  padding: 1rem;
+}
+header{
+  position: sticky;
+  top: 0;
+  font-size: 4rem;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  font-size: 2rem;
+  background-color: black;
+  width: 100%;
+ 
+  
+}
+a{
+  color:white;
+}
+button{
+ font-size: inherit;
+ background-color: aquamarine;
+ color: rgb(11, 11, 62);
+ position: fixed;
+ top:30%;
+ z-index: 1;
+left: 0%;
+}
+.dhuddu1{
+  font-size: inherit;
+ background-color: aquamarine;
+ color: rgb(11, 11, 62);
+ position: fixed;
+ top:40%;
+left: 0%;
+z-index: 1;
+}
