@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  background-image: radial-gradient(blue ,white);
+  background-color: blue;
+  text-align: center;
+  min-height: 150vh;
+ 
+
+
+}
+header,nav,main,footer{
+  display: grid;
+  place-content: center;
+ 
+}
+header,footer{
+  background-color: darkblue;
+  color:white;
+  position: sticky;
+  grid-template-columns: 100%
+}
+header{
+  top:0%;
+}
+footer{
+  bottom: 0%;
+}
+main{
+  flex-grow: 1;
+}
+nav{
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+
+}
+
+@media screen and (max-width: 576px) {
+  body{
+    background-color: rgb(5, 12, 5);
+    background-image: radial-gradient(white,red);
+    
+  }
+  h1{
+    color: black;
+  }
+  
+}
