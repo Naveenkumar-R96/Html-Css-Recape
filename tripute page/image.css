@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 3px double black;
+ 
+ 
+}
+.hero{
+  display: flex;
+  align-items: center;
+  
+  border-bottom: 3px solid black;
+  padding: 3rem;
+  background-color: antiquewhite;
+
+}
+h1{
+  padding-left: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
