@@ -1,0 +1,52 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  color: white;
+
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  min-height: 100vh;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box:nth-child(1){
+  background-color: aqua;
+  color: black;
+  
+}
+.box:nth-child(1):hover{
+  transform:translateX(-50%);
+  transition-property:transform;
+  transition-duration: 2s;
+}
+.box:nth-child(2):hover{
+  background-color: green;
+  transform: scaleX(20%);
+  transition-property: all;
+  transition-duration: 2s;
+}
+.box:nth-child(3):hover{
+  background-color: blue;
+  transform: rotateX(360deg);
+  transition-property: all;
+  transition-duration: 3s;
+}

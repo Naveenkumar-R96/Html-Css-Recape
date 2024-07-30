@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+
+body{
+
+  background-color: #475569;
+  background-image: radial-gradient(whitesmoke,#475569);
+ 
+}
+header,footer{
+  position: sticky;
+  background-color: purple;
+  color: whitesmoke;
+
+}
+
