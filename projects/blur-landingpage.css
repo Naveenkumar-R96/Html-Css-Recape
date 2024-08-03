@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Rooter Elements*/
+
+:root{
+  --FONT-LIGHT:rgb(230, 217, 217);
+  --FONT-DARK: grey;
+  --BG-COLOR-dark:black;
+  --BG-LIGHT:whitesmoke;
+}
+
+/* Showcase */
+
+.showcase{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(img/pexels-sora-shimazaki-5926382.jpg);
+  
+  filter: blur(10px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition:  all 2s;
+}
+.showcase:hover{
+  filter: none;
+  
+  
+}
+.logo{
+  height: 200px;
+  width: 200px;
+  padding: 1rem;
+
+}
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+  filter: blur(0px);
+  position: absolute;
+  transform: rotate(360deg);
+  transition: all 2s;
+  
+}
+.content:hover{
+  
+}
+.title{
+  text-align: center;
+  color: var(--FONT-LIGHT);
+  font-size: 2rem;
+}
+.text{
+  text-align: center;
+  color: white;
+}
