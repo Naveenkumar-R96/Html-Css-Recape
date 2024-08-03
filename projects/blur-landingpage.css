@@ -20,18 +20,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(img/pexels-sora-shimazaki-5926382.jpg);
-  
-  filter: blur(10px);
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/pexels-sora-shimazaki-5926382.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  transition:  all 2s;
-}
-.showcase:hover{
-  filter: none;
-  
+  transition:  all 1s;
+  position: relative;
+ 
   
 }
+
 .logo{
   height: 200px;
   width: 200px;
@@ -46,19 +43,42 @@
 .content{
   filter: blur(0px);
   position: absolute;
-  transform: rotate(360deg);
-  transition: all 2s;
-  
+  z-index: 1;
+ 
+  transition: 2s;
+
 }
-.content:hover{
-  
+.showcase:hover{
+  filter: blur(1px);
 }
+
 .title{
   text-align: center;
-  color: var(--FONT-LIGHT);
+  color: white;
   font-size: 2rem;
+  font-weight: bold;
 }
 .text{
   text-align: center;
   color: white;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 2rem;
+  width: 600px;
 }
+
+.animate{
+  animation: 1.3s 1 normal forwards slide;
+}
+@keyframes slide{
+  0%{
+    transform: translateY(-100px);
+    
+  }
+
+  100%{
+    transform: translateX(0);
+  }
+}
+
+/* Services */
