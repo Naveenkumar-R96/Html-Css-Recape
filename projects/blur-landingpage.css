@@ -91,16 +91,22 @@ body{
 
  background-color: var(--BG-COLOR-light);
  color: var(--FONT-DARK);
-
-
+}
+.services .item1:hover{
+  box-shadow: 2px 2px 2px  black;
 }
 
+.services h2 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 3rem;
+}
 .grid-3{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content:space-between;
-  height: 500px;
+  height: 400px;
   column-gap: 20px;
   row-gap: 20px;
  
@@ -130,12 +136,25 @@ body{
 
 .about-container{
 
-  background-color: var(--BG-COLOR-dark);
+  
   color:var(--FONT-LIGHT);
   width: 100%;
-  border: 2px solid black;
+  
   border-radius: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 20px;
 
+}
+.fonts{
+  color: black;
+  height: 400px;
+  align-items: center;
+  display: grid;
+  font-size: 20px;
+  text-align: center;
+  font-weight:900;
+ 
 }
 .about{
   margin-left: 20px;
@@ -148,6 +167,9 @@ body{
   grid-template-columns: 1fr 1fr ;
   align-items: center;
   height: 400px;
+  background-color: var(--BG-COLOR-dark);
+  border-radius: 13px;
+
 }
 .grid-2 .icons{
   display:grid;
@@ -160,5 +182,16 @@ body{
   font-weight: bold;
 }
 .grid-2 p{
+  font-size: 20px;
+}
+
+/* Footer */
+
+footer p{
+  background-color: black;
+  margin-top: 2rem;
+  padding: 2rem;
+  color: white;
+  text-align: center;
   font-size: 20px;
 }
