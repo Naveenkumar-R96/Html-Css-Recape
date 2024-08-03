@@ -3,12 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: rgb(255, 255, 255);
+
+}
 
 /* Rooter Elements*/
 
 :root{
   --FONT-LIGHT:rgb(230, 217, 217);
-  --FONT-DARK: grey;
+  --FONT-DARK: rgb(14, 11, 11);
   --BG-COLOR-dark:black;
   --BG-LIGHT:whitesmoke;
 }
@@ -25,8 +29,10 @@
   background-size: cover;
   transition:  all 1s;
   position: relative;
- 
-  
+  filter: blur(1px); 
+}
+.showcase:hover{
+  filter: blur(0px);
 }
 
 .logo{
@@ -48,9 +54,7 @@
   transition: 2s;
 
 }
-.showcase:hover{
-  filter: blur(1px);
-}
+
 
 .title{
   text-align: center;
@@ -82,3 +86,79 @@
 }
 
 /* Services */
+
+.services{
+
+ background-color: var(--BG-COLOR-light);
+ color: var(--FONT-DARK);
+
+
+}
+
+.grid-3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content:space-between;
+  height: 500px;
+  column-gap: 20px;
+  row-gap: 20px;
+ 
+}
+.grid-3 div{
+  border: 1px solid white;
+  padding: 3rem;
+  text-align: center;
+  background-color: var(--BG-COLOR-dark);
+  color: var(--FONT-LIGHT);
+  border-radius: 6px;
+}
+.grid-3 div p{
+  margin-top: 2rem;
+}
+.grid-3 div h3{
+  margin-top: 1.3rem;
+}
+
+.grid-3:nth-child(1){
+  display: grid;
+  grid-row: 1/2;
+
+}
+
+/* About Section */
+
+.about-container{
+
+  background-color: var(--BG-COLOR-dark);
+  color:var(--FONT-LIGHT);
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 20px;
+
+}
+.about{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+ .grid-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  align-items: center;
+  height: 400px;
+}
+.grid-2 .icons{
+  display:grid;
+  justify-content: center;
+
+}
+.grid-2 h3{
+  font-size: 28px;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.grid-2 p{
+  font-size: 20px;
+}
