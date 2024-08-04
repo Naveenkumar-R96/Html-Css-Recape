@@ -24,7 +24,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/pexels-sora-shimazaki-5926382.jpg);
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(imag/pexels-sora-shimazaki-5926382.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   transition:  all 1s;
