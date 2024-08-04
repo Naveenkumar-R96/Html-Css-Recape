@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --PRIMARY-COLOR-BG:#047aed;
+}
+body{
+  font-family: poppins , Arial, Helvetica, sans-serif;  
+}
+
+
+/* Navbar */
+
+
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+h1 ,h2{
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 10px ;
+}
+img{
+  width: 100%;
+}
+
+.navbar{
+  background-color: var(--PRIMARY-COLOR-BG);
+  color: #fff;
+  height: 70px;  
+}
+nav ol{
+  display: flex;
+  margin-top: 20px;
+  gap: 2rem;
+}
+nav a{
+  color: white;
+  
+}
+nav a:hover{
+
+  text-decoration:  2px dashed white;
+  
+}
+.logo{
+  margin-top: 15px;
+}
+
+
+/* Utilitties */
+
+
+
+.container{
+  padding:0 2rem;
+  overflow: auto;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.flex{
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 55% 45%;
+  column-gap: 2rem;
+  overflow: visible;
+  color: white;
+
+}
+.card{
+  background-color: white;
+
+}
+.btn{
+  display: inline;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: var(--PRIMARY-COLOR-BG);
+  color: white;
+  border-radius: 5px;
+  border-color: var(--PRIMARY-COLOR-BG);
+  
+}
+ .showcase-text .btn-outline a{
+  
+  
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  
+}
+.btn:hover{
+  transform: scale(0.98);
+}
+
+/* Showcase */
+
+.showcase{
+  height: 400px;
+  background-color: var(--PRIMARY-COLOR-BG);
+  position: relative;
+}
+.showcase h1{
+ font-size: 40px;
+
+}
+.showcase p{
+  margin: 20px 0;
+}
+.showcase-text ,.showcase-form{
+  margin-top: 2rem;
+}
+
+.showcase-form{
+  background-color: white;
+  width: 400px;
+  border-radius: 10px;
+  height: 350px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+ 
+  top: 60px;
+  z-index: 100;
+
+}
+.showcase-form h2{
+  color: black;
+}
+.showcase-form .form-control{
+  margin: 30px 0;
+}
+.showcase-form input[type='text'],
+.showcase-form input[type='email'],
+.showcase-form input[type='password']{
+border: 0;
+border-bottom: 2px solid #b4becb;
+width: 300px;
+padding: 4px;
+}
+.showcase-form input:focus{
+  outline: none;
+}
+
