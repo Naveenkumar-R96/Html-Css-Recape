@@ -190,8 +190,37 @@ padding: 4px;
   padding-top: 40px;
   width: 1000px;
 }
-.stats .grid p{
 
+
+/* Cli */
+
+.cli{
+  margin-top: 45px;
+}
+.cli .grid{
+  grid-template-columns: repeat(3,1fr);
+  color: black;
+  grid-template-rows: (2,1fr);
+  row-gap: 20px;
+  
+  
 }
 
+.cli .grid > *:first-child{
+ grid-column: 1 / span 2;
+ grid-row: 1 / span 2;
+}
+.cli .card{
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  color:rgb(108, 108, 108)
+ 
+}
 
+/* Cloud */
