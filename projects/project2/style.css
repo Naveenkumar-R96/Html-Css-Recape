@@ -7,6 +7,9 @@
 }
 :root{
   --PRIMARY-COLOR-BG:#047aed;
+  --SECONDARY-COLOR:#1C3FA8;
+  --DARK-COLOR:#002240;
+  --COLOR:WHITE;
 }
 body{
   font-family: poppins , Arial, Helvetica, sans-serif;  
@@ -224,3 +227,31 @@ padding: 4px;
 }
 
 /* Cloud */
+.cloud{
+  margin-top: 45px;
+  background-color: #047aed;
+  border: 1px solid #fff ;
+  margin: 2rem; 
+  margin-top: 4rem;
+}
+.cloud .grid{
+  padding: 4rem;
+  grid-template-columns: 4fr 3fr;
+}
+.cloud .text-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.cloud .text-center h2{
+  font-weight: 500;
+}
+.text-center .btn-dark{
+  border: 2px solid white;
+  padding:10px 30px;
+  margin-top: 30px;
+  color: white;
+  border-radius: 10px;
+}
