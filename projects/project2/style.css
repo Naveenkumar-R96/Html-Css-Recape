@@ -10,6 +10,7 @@
 }
 body{
   font-family: poppins , Arial, Helvetica, sans-serif;  
+  min-height: 300vh;
 }
 
 
@@ -48,7 +49,7 @@ nav a{
 }
 nav a:hover{
 
-  text-decoration:  2px dashed white;
+  border-bottom:  2px solid white;
   
 }
 .logo{
@@ -81,6 +82,14 @@ nav a:hover{
   color: white;
 
 }
+
+/* Margin */
+.my-1{
+  margin-top: 100px;
+}
+
+
+/*    */
 .card{
   background-color: white;
 
@@ -133,7 +142,7 @@ nav a:hover{
   overflow: hidden;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
- 
+  position: relative;
   top: 60px;
   z-index: 100;
 
@@ -155,4 +164,34 @@ padding: 4px;
 .showcase-form input:focus{
   outline: none;
 }
+
+/* States */
+
+.text-center{
+  color: black;
+ 
+  font-weight: 300;
+  text-align: center;
+}
+.stats{
+  display: flex;
+}
+.stats-heading{
+  max-width: 1100px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  
+  
+}
+.grid-3{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding-top: 40px;
+  width: 1000px;
+}
+.stats .grid p{
+
+}
+
 
