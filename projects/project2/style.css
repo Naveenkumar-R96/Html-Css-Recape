@@ -255,3 +255,26 @@ padding: 4px;
   color: white;
   border-radius: 10px;
 }
+
+/* Languages */
+
+ .languages .carrd{
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  margin: 20px 10px; 
+  height:140;
+  width: 140;
+  transition: all 0.5s;
+
+}
+.languages .flex1{
+ display: flex;
+ flex-wrap: wrap;
+}
+.languages img{
+  height: 60px;
+  width: 60px;
+}
+.languages .carrd:hover{
+  transform: translateY(-15px) ;
+}
