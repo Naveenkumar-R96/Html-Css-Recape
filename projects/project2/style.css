@@ -53,7 +53,6 @@ nav a{
 nav a:hover{
 
   border-bottom:  2px solid white;
-  
 }
 .logo{
   margin-top: 15px;
@@ -168,6 +167,10 @@ padding: 4px;
   outline: none;
 }
 
+.showcase .btn{
+  border: 2px solid white;
+}
+
 /* States */
 
 .text-center{
@@ -248,12 +251,16 @@ padding: 4px;
 .cloud .text-center h2{
   font-weight: 500;
 }
-.text-center .btn-dark{
+.cloud .text-center .btn-dark{
   border: 2px solid white;
   padding:10px 30px;
   margin-top: 30px;
   color: white;
   border-radius: 10px;
+  
+}
+.cloud .text-center .btn-dark:hover{
+  transform: scale(0.98);
 }
 
 /* Languages */
@@ -277,4 +284,22 @@ padding: 4px;
 }
 .languages .carrd:hover{
   transform: translateY(-15px) ;
+}
+
+/* Footer */
+
+.bg-dark{
+  background-color: var(--DARK-COLOR);
+  padding: 2rem;
+  height: 160px;
+  
+}
+footer a{
+  color:white;
+  margin: 0 10px;
+  padding-top: 20px;
+  
+}
+footer h1 nav{
+  margin-bottom: 20px;
 }
