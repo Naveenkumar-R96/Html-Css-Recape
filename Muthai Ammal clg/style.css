@@ -1,0 +1,40 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background-color: black;
+  
+}
+nav{
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 2rem 0;
+  color: white;
+}
+ul{
+  display: flex;
+}
+li{
+  list-style: none;
+  padding:0 1rem;
+  font-size: 20px;
+  transition:all 2s ;
+}
+li:hover{
+  border-bottom: 2px solid yellow;
+  transform: translateX(40);
+ 
+}
+.name{
+  font-size: 23px;
+}
+.button{
+  font-size: 20px;
+  background-color: rgb(232, 182, 18);
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+}
