@@ -163,26 +163,7 @@ nav {
   gap: 2rem;
 }
 
-.explore__nav {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
 
-.explore__nav span {
-  padding: 0 6px;
-  font-size: 1.5rem;
-  color: var(--white);
-  border: 2px solid var(--white);
-  border-radius: 100%;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.explore__nav span:hover {
-  color: var(--secondary-color);
-  border-color: var(--secondary-color);
-}
 
 .explore__grid {
   margin-top: 4rem;
@@ -204,15 +185,7 @@ nav {
   border-color: var(--secondary-color);
 }
 
-.explore__card span {
-  display: inline-block;
-  padding: 2px 9px;
-  margin-bottom: 1rem;
-  font-size: 1.75rem;
-  color: var(--white);
-  background-color: var(--secondary-color-dark);
-  border-radius: 5px;
-}
+
 
 .explore__card h4 {
   margin-bottom: 0.5rem;
