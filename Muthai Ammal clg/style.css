@@ -5,6 +5,7 @@
   background-color: black;
   
 }
+
 nav{
   max-width: 1200px;
   display: flex;
@@ -21,20 +22,68 @@ li{
   list-style: none;
   padding:0 1rem;
   font-size: 20px;
-  transition:all 2s ;
+  
 }
 li:hover{
-  border-bottom: 2px solid yellow;
-  transform: translateX(40);
+  border-bottom: 2px solid rgb(255, 128, 0);
+
+  
  
 }
 .name{
   font-size: 23px;
 }
 .button{
-  font-size: 20px;
+  font-size: 17pxpx;
   background-color: rgb(232, 182, 18);
   padding: 10px 20px;
   color: white;
   border-radius: 5px;
+  letter-spacing: 1px;
+  outline: none;
+  border: none;
+}
+.button:hover{
+  opacity: 50%;
+  transition: 0.4s;
+}
+.section-container{
+  max-width: 1200px;
+  margin: auto;
+  height: 70vh;
+
+  
+  
+}
+.header-container{
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+  
+}
+.header-content h4{
+color: rgb(255, 179, 0);
+margin-bottom: 20px;
+text-align: center;
+font-size: 25px;
+
+
+}
+.header-content h1 {
+color: white;
+text-align: center;
+margin-bottom: 20px;
+font-size: 3rem;
+}
+.header-content p{
+  color: white;
+  max-width: 700px;
+  font-size: 18px;
+}
+
+.header-container .button{
+  margin-top: 20px;
 }
