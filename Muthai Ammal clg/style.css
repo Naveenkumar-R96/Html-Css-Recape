@@ -126,3 +126,34 @@ border-radius: 20px;
   grid-template-columns: repeat(4,1fr);
   gap: 2rem;
 }
+
+/* Class container */
+
+.class-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:2rem;
+ max-width: 800px;
+
+}
+.contents{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contents p{
+color: white;
+margin-bottom: 2rem;
+}
+.contents .button{
+ text-align: center;
+}
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  width: 350px ;
+  height: 350px;
+}
