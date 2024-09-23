@@ -123,7 +123,8 @@ li:hover {
   padding: 2rem;
   border-radius: 20px;
   box-shadow: 0 3px 10px white;
-  flex-wrap: wrap;
+  width: 250px;
+  margin: auto;
 
 
 }
@@ -144,9 +145,9 @@ p {
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+ gap: 2rem;
 }
 
 /* Class container */
@@ -197,7 +198,7 @@ p {
 }
 
 .join-container img {
-  width: 800px;
+  width: 400px;
   height: 400px;
 
 }
@@ -261,8 +262,9 @@ p {
  /*  display: flex;
   justify-content: center;
   gap: 3rem; */
-  display: grid;
-  grid-template-columns: repeat(3,5fr);
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   
 }
 .price-card{
@@ -271,6 +273,8 @@ p {
   height: auto;
   padding: 2rem;
   margin-top: 2rem;
+  opacity: 80%;
+  margin-bottom: 3rem;
 
 }
 .price-card h4{
@@ -281,7 +285,8 @@ p {
   margin-top: 10px;
 }
 .price-card:hover{
-  outline: 2px solid  rgb(255, 179, 0);;;
+  outline: 2px solid  rgb(255, 179, 0);
+  opacity: 100%;
 }
 .price-card .button{
   border:2px solid rgb(255, 179, 0);;
@@ -295,4 +300,23 @@ color: rgb(255, 179, 0);;
   color: rgb(255, 229, 229);
   transition: 0.4s;
   opacity: 100%;
+}
+
+
+footer{
+  color: white;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+/*Media  */
+
+@media (width <700px){
+  nav li{
+    display: none;
+  }
+  .class-container{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
