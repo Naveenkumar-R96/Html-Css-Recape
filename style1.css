@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+ 
+}
+.grid{
+  height: 100vh;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card{
+  width: 300px;
+  height: auto;
+  background-color: black;
+  color: white;
+  padding: 2rem;
+}
+.card img{
+  width: 250px;
+  align-items: center;display:flex;
+  align-items: center;
+  justify-content: center;
+}

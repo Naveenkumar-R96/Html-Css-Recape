@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
 }
 body{
   background-color: black;
@@ -226,5 +227,11 @@ nav a{
   }
   .joinus-container img{
     width: 200px;
+  }
+}
+
+@media (width < 800px){
+  nav ul{
+    display: none;
   }
 }
