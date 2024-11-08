@@ -3,16 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
- 
-}
+
 .grid{
-  height: 100vh;
-  display: flex;
-  gap: 2rem;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+ display: grid;
+ grid-template-columns: repeat( auto-fit,300px);
+ gap: 15px;
 }
 .card{
   width: 300px;

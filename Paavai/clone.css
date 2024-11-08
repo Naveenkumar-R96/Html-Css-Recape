@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --primary-color:rgb(255, 132, 0);
+
+}
+body{
+    max-width: 1100px;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+main{
+    min-height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin-left: 2rem;
+}
+nav ul li:hover{
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+a:hover{
+    border-bottom: 2px  solid var(--primary-color);
+}
+.title{
+    font-size: 23px;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+}
+
+
+.btn1{
+    padding: 8px 17px;
+    border-radius: 4px;
+    outline: none;
+   background-color:var(--primary-color);
+   border: none;
+   font-size: 18px;
+   letter-spacing: 1.2px;
+}
+.btn1:hover{
+    opacity: 80%;
+}
+/*  */
+
+.body-text{
+    padding-top: 160px;
+   
+  
+}
+
+.body-text h2{
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.body-text h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.body-text p{
+    margin-bottom: 20px;
+    max-width: 700px;
+    opacity: 80%;
+}
+
+/*  */
+
+.about-us h3{
+    text-align: center;
+    opacity: 75%;
+    margin-bottom: 20px;
+}
+.about-us h1{
+    text-align: center;
+    font-size: 25px;
+
+}
+.about-us-flex{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,400px) ;
+    justify-content: center;
+    gap: 2rem;
+}
+.about-us-flex img{
+    width: 400px;
+}
+
+.about-us-flex .text{
+    margin-top: 30px;
+}
+
+/*  */
+
+
+.services h3{
+    margin-top: 5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    opacity: 75%;
+}
+.services h2{
+  text-align:center;
+  font-size: 30px;
+  margin-bottom: 5rem;
+}
+.service-container{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+  background-color: white;
+  padding: 1rem;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 0px 3px 10px white;
+  width: 200px;
+  
+}
+.card h4{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+   
+}
+.card:hover{
+    transform: translateY(-15px);
+    transition: 0.5s;
+}
+
+ /*  */
+
+
+ .class-container{
+    display: flex;
+    margin-top: 8rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ .class-container h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 20px;
+ }
+ .class-container p{
+    margin-bottom: 20px;
+ }
+ .class-container img{
+    width: 400px;
+ }
+ .class-text{
+    width: 500px;
+    margin-left: 20px;
+ }
