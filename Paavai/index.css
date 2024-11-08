@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+:root{
+    --primary-color:rgb(255, 136, 0);
+}
+body{
+    background-color: black;
+    color: white;
+    max-width: 1100px;
+    margin: auto;
+}
+main{
+    min-height: 100vh;
+}
+nav{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color:  white;
+    margin-left: 2rem;
+    font-size: 20px;
+}
+.btn1{
+    font-size: 17px;
+    background-color: var(--primary-color);
+    padding: 4px 10px;
+    outline: none;
+    border-radius: 4px;
+    letter-spacing: 1.2px;border: none;
+}
+.title{
+    font-size: 24px;
+    font-weight: 600;
+}
+/*  */
+
+.body-text{
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.body-text h2{
+    color: var(--primary-color);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.body-text h1{
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+.body-text p{
+    max-width: 600px;
+    opacity: 90%;
+    margin-bottom: 20px;
+}
+
+/*  */
+
+.about-us h4{
+    text-align: center;
+    opacity: 75%;
+    margin-bottom: 20px;
+}
+.about-us h2{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 5rem;
+}
+.about-us-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+    ;gap:3rem
+}
+.about-us-container img{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+.about-us-container .text{
+    max-width: 500px;
+    text-align: center;
+}
+.about-us-container .text h1{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 30px;
+    letter-spacing: 1.3px;
+}
+.about-us-container p{
+    margin-bottom: 2rem;
+}
+.about-us-container .text .btn2{
+padding: 7px 10px;
+outline: none;
+background: transparent;
+color: white;
+outline: none;
+border: 2px solid white;
+border-radius: 10px;
+}
+.about-us-container .text .btn2:hover{
+    background-color: var(--primary-color);
+    border: none;
+ 
+}
+
+.services{
+    margin-top: 5rem;
+}
+.services h3{
+    text-align: center;
+    opacity: 75%;
+    margin-bottom: 20px;
+}
+.services h2{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 3rem;
+}
+.service-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 2rem;
+}
+.cards{
+    background-color: white;
+    padding: 2rem;
+    width: 250px;
+    height: 250px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px white;
+}
+.cards h1{
+text-align: center;
+margin-bottom: 10px;
+}
+.cards:hover{
+    transform: translateY(-15px);
+    transition: 0.5s;
+}
+
+/*  */
+
+
+.class h3{
+ margin-top: 4rem;
+ margin-bottom: 20px;
+ opacity: 75%;
+ text-align: center;
+
+}
+.class h2{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 4rem;
+}
+
+.class-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.class-container img{
+    width: 400px;
+   
+}
+.class-container .class-text{
+    width: 500px;
+}
+.class-text h1{
+    margin-left: 20px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.class-text p{
+    margin-left: 20px;
+    margin-bottom: 1rem;
+}
+.class-container .btn1{
+    margin-left: 20px;
+}
+
+/*  */
+
+.price h3{
+    margin-top: 4rem;
+    opacity: 75%;
+    text-align: center;
+    margin-bottom: 20px
+}
+.price h2{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.price-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.price-card{
+    background-color: rgb(52, 52, 52);
+    opacity: 80%;
+    padding: 2rem;
+    width: 300px;
+    height: 400px;
+}
+.price-card h1{
+    font-size: 25px;
+    border-bottom: 2px solid white;
+    line-height: 50px;
+}
+.price-card p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.price-card .btn4{
+    margin-top: 50px;
+}
+.btn4{
+    width: 100%;
+    padding: 8px 0;
+    background: transparent;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    outline: none;
+    color: white;border: 2px solid white;
+}
+.price-card:hover{
+    opacity: 100%;
+
+}
+.btn4:hover{
+    background-color: var(--primary-color);
+    border: none;
+}
+footer{
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+@media (width<700px){
+    nav ul li{
+        display: NONE;
+    }
+}
+@media (width<500px){
+    .class img{
+        width: 200px;
+    }
+    .class-text{
+      
+    }
+    .about-us img{
+        width: 200px;
+        height: auto;
+    }
+}
