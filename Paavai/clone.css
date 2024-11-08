@@ -174,3 +174,89 @@ a:hover{
     width: 500px;
     margin-left: 20px;
  }
+
+ /*  */
+
+ .price-card h3 h4{
+    text-align: center;
+ }
+
+.price-card h3{
+    opacity: 75%;
+    text-align: center;
+    margin-top: 5rem;
+}
+.price-card h4{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 2rem;
+}
+.caards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  justify-content: center;
+}
+.price-cards{
+    background-color: rgb(45, 43, 43);
+    width: 300px;height: 350px;
+    padding: 2rem;
+    opacity: 80%;
+}
+.price-cards:hover{
+    border: 2px solid var(--primary-color);
+    opacity: 100%;
+}
+.price-cards h1{
+    font-size: 29px;
+    border-bottom: 2px solid white;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.price-card p{
+    margin-top: 20px;
+}
+.btn4{
+    margin-top: 85px;
+   
+    width: 100%;
+    padding: 7px 0;
+    background: transparent;
+    outline: none;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+}
+
+.btn4:hover{
+    background-color: var(--primary-color);
+    color: black;
+    outline: none;
+    border: none;
+}
+
+footer{
+    color: whites;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+
+@media (width<700px) {
+    nav ul li{
+        display: none;
+    }
+}
+@media (width<500px) {
+    .about-us-flex img{
+        width: 200px;
+    }
+    .about-us-flex .text{
+        width: 100px;
+        text-align: center;
+    }
+    .class-container img{
+        width: 200px;
+    }
+    
+}
