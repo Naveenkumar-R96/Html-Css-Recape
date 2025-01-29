@@ -34,3 +34,29 @@ li{
 }
  */
 
+.grid-box{
+    min-width: 300px;
+    min-height: 300px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.grid-box:nth-child(3){
+    background-color: red;
+    grid-column: span 2;
+    grid-row:span 1 ;
+}
+.grid-box:nth-child(5){
+    grid-row: span 3;
+}
+.grid{
+    display: grid;
+   
+    grid-template-columns:repeat(3 ,1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
