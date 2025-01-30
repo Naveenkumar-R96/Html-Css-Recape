@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    height: auto;
+}
+.nav1 nav{
+    display: flex;
+    justify-content: space-evenly;
+    gap:2rem;
+    padding: 2rem;
+}
+input{
+    width: 300px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(179, 226, 244);
+    outline: none;
+    border:none;
+    border-radius: 10px;
+}
+ .input button{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 5px;
+    background-color: rgb(179, 226, 244);
+    outline: none;
+    border:none;
+    border-radius: 10px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    list-style: none;
+}
+.container{
+    height: screen ;
+    min-height: 75vh;
+    background-color: rgb(237, 239, 239);
+    margin-top: 20px;
+    position: relative;
+}
+.bg{
+    background-color: rgb(28, 54, 100);
+    width: 1000px;
+    border-radius: 20px;
+    top: 20px;
+    margin: auto;
+    left: 140px;
+    height: 400px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img{
+    background-image: url(../img/Internship.jpg);
+    position: relative;
+    align-items: center;
+    place-content: center;
+    margin-left: 200px;
+    top: 20px;
+    border-radius: 20px;
+    height: 400px;
+    width:  400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    width: 1000px;
+}
+
+article{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article p{
+    font-size: 30px;
+    color: rgb(81, 81, 81);
+}
+article h2{
+    font-size: 50px;
+    margin-top: 30px;
+}
+article h1{
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+article li{
+    background-color: beige;
+    padding: 30px;
+}
