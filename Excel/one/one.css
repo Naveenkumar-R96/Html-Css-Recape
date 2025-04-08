@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color:rgb(220, 128, 35);
+}
+body{
+    background-color: black;
+    color:white;
+    max-width: 1100px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+}
+ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+li a:hover{
+    color: var(--color);
+    transition: 0.3s;
+}
+.btn{
+    border: none;
+    outline: none;
+    background-color:var(--color) ;
+    padding: 7px 15px;
+    border-radius: 7px;
+color: white;
+font-size: 18px;
+}
+
+.landing{
+    margin-top: 100px;
+    display: flex;
+    
+    gap: 2rem;
+}
+.landing .text h3{
+    color: var(--color);
+    margin-bottom: 20px;
+}
+.text h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.text p{
+    margin-bottom: 30px;
+}
+.btn:hover{
+    opacity: 70%;
+    transition: 0.3s;
+}
+
+
+/*  */
+
+.centering{
+    margin-top: 100px;
+}
+.center p{
+    text-align: center;
+    font-size:18px;
+    margin-bottom: 40px;
+}
+.fel{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.con p{margin-bottom: 20px;}
+
+
+/*  */
+
+
+.explore h1{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.gri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.box{
+    width: 250px;
+    background-color: rgb(42, 40, 40);
+    padding: 2rem;
+}
+.box h3{
+    margin-bottom: 10px;
+}
+.box p{
+    margin-bottom: 10px;
+}
+.box:hover{
+  transform: translateY(-15px);
+  opacity: 160%;
+  transition: 0.3s;
+border-radius: 0 40px 0 40px;
+background-color: rgb(253, 235, 235);
+color: #000;
+}
